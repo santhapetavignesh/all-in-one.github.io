@@ -37,7 +37,7 @@ div ul li a{
 div ul li a:hover{
     background-color:whitesmoke;
     color:darkred;
-    text-transform:uppercase;
+    text-transform:lowercase;
 }
 div ul li ul li{
     display:none ;
@@ -64,9 +64,9 @@ p{
 
 
 .card-gran{
-    margin: 0;
-    padding: 0;
-    background-position: fixed;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-parent{

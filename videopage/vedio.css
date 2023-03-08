@@ -1,0 +1,31 @@
+.home{
+    font-size: 30px;
+    text-align:center;
+    font-weight:bold ;
+    font-style: italic;
+}
+
+.card-video{
+    width: 350px;
+    height: 300px;
+}
+
+h3{
+    font-size:15%;
+    font-family: arial;
+    font-weight: bold;
+    font-style: italic;
+    color: darkblue;
+    text-transform:capitalize;
+}
+h4{
+    font-size:15%;
+    font-family: arial;
+    font-weight: bold;
+    font-style: italic;
+    color: darkblue;
+    text-transform:capitalize;
+}
+
+
+

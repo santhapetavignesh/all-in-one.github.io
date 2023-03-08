@@ -37,7 +37,6 @@ div ul li a{
 div ul li a:hover{
     background-color:whitesmoke;
     color:darkred;
-    text-transform:uppercase;
 }
 div ul li ul li{
     display:none ;
