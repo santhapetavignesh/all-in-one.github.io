@@ -1,19 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
 
+body{
+    background-color:#a4a1fd !important ;
 }
-img{
-    margin:0;
-}
-nav{
-    background-color: bisque;
-    margin: 0;
-    padding: 0;
+
+nav {
+    background-color: black;
+    
 }
 
 nav img{
-    width:200px;
+    width:250px;
+   
 }
 
 div ul {
@@ -23,55 +20,49 @@ div ul {
 div ul li {
     float: left;
     width:150px;
-    font-size: 30px;
+    font-size: 20px;
 }
 div ul li a{
     text-decoration: none;
-    color:darkblue;
+    color:white;
     font-weight: bold;
-    font-style: italic;
-    text-transform: capitalize;
-    
-
+    font-family: Bell MT;
 }
 div ul li a:hover{
-    background-color:whitesmoke;
-    color:darkred;
+    
+    color:white;
+    
 }
 div ul li ul li{
     display:none ;
-    border: 1px solid white;
-    background-color:#f9e8da;
-}
-div ul li ul li a:hover {
-    background-color: white;
 }
 div ul li:hover ul li{
     display: block;
 }
+
 p{
     text-align: center;
-    font-size: 30px;
-    font-family: arial;
+    font-size: 40px;
+    font-family: Sitka Subheading Semibold;
     font-weight: bold;
-    font-style: italic;
-    color: rgb(11, 6, 6);
-    text-transform:uppercase;
-    padding-top:3%;
-}
+    color: white;
+    text-transform:capitalize;
 
+}
 
 
 .card-gran{
     margin: 0;
     padding: 0;
     background-position: fixed;
+    
 }
 
 .card-parent{
     width:250px;
-    height:320px;
+    height:300px;
     padding: 20px;
+    background-color:#7976fa !important;
 }
 .card-child1{
     width:200px;
@@ -85,7 +76,10 @@ p{
     width:150px;
     height:150px;
 }
-.card-body-font{
-    font-size: 15px;
+
+.card-hello{
+    border-radius: 13px;
+    background-color: #e9b229;
+    width:150px;
 }
 

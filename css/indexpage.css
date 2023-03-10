@@ -15,7 +15,7 @@ img{
 }
 
 nav img{
-    width:200px;
+    width:300px;
 }
 
 div ul {
@@ -26,17 +26,17 @@ div ul li {
     float: left;
     width:150px;
     font-size: 30px;
+    background-color:#403a95;
 }
 div ul li a{
     text-decoration: none;
     color:white;
     font-weight: bold;
-    font-style: italic;
-
+    font-family: Bell MT;
 }
 div ul li a:hover{
-    background-color:lightgrey;
-    color:darkred;
+    
+    color:white;
     
 }
 div ul li ul li{
@@ -48,9 +48,8 @@ div ul li:hover ul li{
 p{
     text-align: center;
     font-size: 30px;
-    font-family: arial;
+    font-family: Sitka Subheading Semibold;
     font-weight: bold;
-    font-style: italic;
     color: rgb(11, 6, 6);
     text-transform:uppercase;
     padding-top:3%;
