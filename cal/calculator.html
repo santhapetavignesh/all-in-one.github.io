@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>services.com</title>
+	<link rel="stylesheet" href="../css/servicepage.css">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="./cal.css">
+    <script src="./one.js" rel="text/javascript"></script>
+</head>
+<body>
+	<nav class="container-fluid">
+		<div class="row">
+			<div class="col-1 col-sm-1 col-md-2 col-lg-3 ">
+				<a href=""><img class="logo" src="../images/logo/1.png " ></a>	
+			</div>
+			<div class="col-1 col-sm-4 col-md-7 col-lg-9 mt-3">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../about.html">About</a></li>
+					<li><a href="../service.html">Services</a>
+						
+					<li><a href="../contact.html">Contact</a></li>
+					<li><a href="../login.html">Login</a></li>
+				</ul>
+			</div>
+		</div>	
+	</nav>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-lg-5 card-gran">
+        <table cellspacing="4px" cellspadding="3px" > 
+            <thead>
+                <th colspan="5"><input class="input_css" type="text" id="result" placeholder="Wellcome to All In One Calculator"></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2"><button onclick="clear_value()">AC</button></td>
+                   
+                    <td colspan="2"><button onclick="del()"><img src="./a.jpg"width="20px">Del</button></td>
+                    
+                </tr>
+                <td><button onclick="display_value('(')">(</button></td>
+                <td><button onclick="display_value(')')">)</button></td>
+                <td><button onclick="display_value('.')">.</button></td>
+                <td colspan="2"><button onclick="calculate()">=</button></td>
+                
+                 <tr>
+                    
+                </tr>  
+                <tr>
+                    <td><button onclick="square()">Square(x<sup>2</sup>)</button></td>
+                    <td><button onclick="cube()">Cube(x<sup>3</sup>)</button></td>
+                    <td><button onclick="exp()">x<sup>y</sup></button></td>
+                    <td><button onclick="ten_squ()">10<sup>x</sup></button></td>
+                    <td><button onclick="one_divide()">1/x</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="display_value('1')">1</button></td>
+                    <td><button onclick="display_value('2')">2</button></td>
+                    <td><button onclick="display_value('3')">3</button></td>
+                    <td><button onclick="factor()">x!</button></td>
+                    <td><button onclick="display_value('+')">+</button></td>
+                                        
+                </tr>
+                <tr>
+                    <td><button onclick="display_value('4')">4</button></td>
+                    <td><button onclick="display_value('5')">5</button></td>
+                    <td><button onclick="display_value('6')">6</button></td>
+                    <td><button onclick="display_value('-')">-</button></td>
+                    <td><button onclick="display_value('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="display_value('7')">7</button></td>
+                    <td><button onclick="display_value('8')">8</button></td>
+                    <td><button onclick="display_value('9')">9</button></td>
+                    <td><button onclick="display_value('/')">/</button></td>
+                    <td><button onclick="display_value('%')">%</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="display_value('0')">0</button></td>
+                    <td><button onclick="display_value('00')">00</button></td>
+                    <td><button onclick="display_value('000')">000</button></td>
+                    <td colspan="2"><button onclick="calculate()">=</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="even()">Even</button></td>
+                    <td><button onclick="odd()">Odd</button></td>
+                    <td><button onclick="prime_value()">Prime</button></td>
+                    <td><button onclick="multiple()">Multiple</button></td>
+                    <td><button onclick="divisible()">Divisible</button></td>
+                </tr>
+                <tr >
+                    <td colspan="5"><button onclick="even_value()">Even starting number is "1" to End(User Given Number)</button></td>
+                </tr>
+                <tr >    
+                    <td colspan="5"><button onclick="odd_value()">Odd starting number is "1" to End(User Given Number)</button></td>
+                </tr>
+                <tr >    
+                    <td colspan="5"><button onclick="primemulti()">Prime starting number is "1" to End(User Given Number)</button></td>
+                </tr>
+            </tbody>
+        </table>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
